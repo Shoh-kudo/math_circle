@@ -32,7 +32,7 @@
      - `is_identity`
         : 恒等写像かどうか判定する
 - type_map.py
-    - 写像(対応も？)を作るためのクラス
+    - 写像(対応も？)を作るためのクラス`Map`を定義
     - `__init__(values, types='func', A=Set(set([])), B=Set(set([])), init=False)`
         - values: function
         - types: str 'func' で固定
@@ -62,7 +62,7 @@
     - `__mul__`
         : 写像の合成
 - type_set.py
-    - 写像や演算に対応させた集合を作るためのクラス
+    - 写像や演算に対応させた集合を作るためのクラス`Set`を定義
     - `__init__(values, types='set')`
         - values: set 集合
         - types: str 'set' で固定
